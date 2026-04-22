@@ -24,7 +24,7 @@ Notes:
 make test
 
 ## Docker
-docker build -t mlops-task 
+docker build -t mlops-task .
 docker run --rm mlops-task
 
 Example metrics.json:
