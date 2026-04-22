@@ -1,0 +1,16 @@
+2026-04-22 11:17:31,427 - INFO - Job started
+2026-04-22 11:17:31,428 - INFO - CLI args: input=data.csv config=config.yaml output=metrics.json log_file=run.log
+2026-04-22 11:17:31,430 - INFO - Config loaded and validated: seed=42 window=5 version=v1
+2026-04-22 11:17:31,587 - INFO - Rows loaded: 10000
+2026-04-22 11:17:31,588 - INFO - Processing: rolling mean (window=5)
+2026-04-22 11:17:31,588 - INFO - Processing: signal generation (close > rolling_mean)
+2026-04-22 11:17:31,597 - INFO - Metrics: {'version': 'v1', 'rows_processed': 10000, 'metric': 'signal_rate', 'value': 0.4991, 'latency_ms': 169, 'seed': 42, 'status': 'success'}
+2026-04-22 11:17:31,597 - INFO - Job completed successfully
+2026-04-22 13:06:06,830 - INFO - Job started
+2026-04-22 13:06:06,833 - INFO - CLI args: input=data.csv config=config.yaml output=metrics.json log_file=run.log
+2026-04-22 13:06:06,836 - INFO - Config loaded and validated: seed=42 window=5 version=v1
+2026-04-22 13:06:06,878 - INFO - Rows loaded: 10000
+2026-04-22 13:06:06,886 - INFO - Processing: rolling mean (window=5)
+2026-04-22 13:06:06,887 - INFO - Processing: signal generation (close > rolling_mean)
+2026-04-22 13:06:06,899 - INFO - Metrics: {'version': 'v1', 'rows_processed': 10000, 'metric': 'signal_rate', 'value': 0.4991, 'latency_ms': 65, 'seed': 42, 'status': 'success'}
+2026-04-22 13:06:06,900 - INFO - Job completed successfully
