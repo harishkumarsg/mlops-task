@@ -7,6 +7,14 @@
 - Dockerized pipeline
 - Unit testing included
 
+## Design Decisions
+- **Modular Architecture**: Code is separated into pipeline, validation, logging, and utilities for maintainability and scalability.
+- **Reproducibility**: Controlled using configuration file and fixed random seed.
+- **Observability**: Structured logging implemented to track execution flow and debugging.
+- **Error Handling**: Robust validation for config and dataset ensures graceful failure.
+- **Dockerization**: Ensures consistent execution across environments with a single command.
+- **Testing**: Basic unit tests included to validate pipeline correctness.
+
 ## Run Locally
 Install dependencies:
 
